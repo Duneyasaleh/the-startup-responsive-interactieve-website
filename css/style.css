@@ -1,0 +1,206 @@
+*{
+    box-sizing: border-box;
+    font: 100%/1.4 Arial, Helvetica, sans-serif;
+    line-height: 110%;
+}
+:root{
+  --primary: #5E356F;
+  --secondary: #C4C700;
+  --highlight-secondary: #A68FAD;
+  --highlight-primary:#FCF7FD;
+  --light-gray: #F5F5F5;
+  --black : #0000;
+  --white: #ffffff; 
+  --shadow: 0 4px 20px 0 rgba(94, 53, 111, 0.15);
+  /* --shadow: 0 4px 20px 0 rgb(94, 53, 111); */
+  --image-radius: 5px;
+  --button-radius: 54px;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+h1, h2{
+    color: var(--primary);
+    max-width: 30rem;
+    font-size: 32px;
+    text-align: center;
+}
+h3{
+    color: var(--primary);
+    max-width: 30rem;
+    font-size: 20px;
+}
+a{
+    color: var(--primary);
+    text-decoration: none;
+}
+header{
+    max-width: 100%;  
+    height: 100%;  
+    position: sticky;
+    box-shadow: var(--shadow);
+    margin: 0 auto;
+    right: auto;
+    left: auto;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+
+nav div{
+    padding: 0 1em;
+}
+.top-nav_list button{
+    width: 4em;
+    height: 4em;
+    background-color: var(--primary);
+    color: var(--white);
+    border: none;
+    border-radius: var(--image-radius);
+}
+.top-nav_list ul{
+    list-style: none;
+    display: inline-flex;
+    gap : 2rem;
+    display: none;
+}
+.top-nav_logo img{
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    padding: 17px 40px;
+}
+.top-nav_search svg{
+    fill: var(--secondary);
+}
+
+.home-page-slider{
+    /* padding: 0 1rem; */
+    display: flex; 
+    overflow: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.home-page-slider article{
+    flex-grow: 0;
+    /* Laat afbeeldingen niet kleiner worden */
+    flex-shrink: 0;
+    /* Maak ze standaard 100% breed */
+    flex-basis: 100%;
+    scroll-snap-align: center;
+}
+.home-page-selector{
+    background-color: var(--highlight-primary);
+}
+.home-page-selector_bar{
+    background-color: var(--primary);
+    width: 100%;
+    color: var(--white);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5%;
+}
+.home-page-selector_bar h2, .home-page-selector_bar h3{
+    color: var(--white);
+}
+.home-page-selector_bar-total{
+    background-color: var(--white);
+    color: var(--primary);
+    border-radius: 50%;
+    padding: 0 7px;
+}
+.home-page-selector_bar-remove{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+.home-page-selector_filter{
+    text-align: center;
+    padding: 0 1rem;
+    
+}
+.home-page-selector_filter-button{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 8px;
+}
+.home-page-selector_filter-button button{
+    width:auto;
+    border: none;
+    border-radius: var(--button-radius);
+    background-color: var(--light-gray);
+    padding: 20px;
+}
+.home-page-selector_filter-button button::before{
+    content: "#";
+    background-color: var(--white);
+    padding: 4px 7px;
+    border-radius: 50%;
+    margin-right: .4rem;
+}
+.home-page-selector_filter-show-more{
+    padding: 1.5rem 0;
+}
+.home-page-selector_filter-show-more button{
+    text-align: center;
+    border: none;
+    border-radius: var(--button-radius);
+    background-color: var(--white);
+    padding: 1.5rem;
+
+}
+.home-page_actueel{
+    padding: 0 1rem;
+}
+.home-page_actueel-card, .home-page_populaire-producten_card{
+    padding: 0  0 1rem  0;
+    margin-bottom: 1rem;
+    box-shadow: var(--shadow);
+    border-radius: var(--image-radius);
+}
+.home-page_agenda{
+    background-color: #F9F9E8;
+    padding: 0 1rem;
+}
+.home-page_actueel-card > div, .home-page_populaire-producten_card div{
+ padding: 1rem;
+ }
+
+.home-page_top-footer{
+    padding: 1rem;
+    background-color: var(--primary);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.home-page_top-footer h3{
+    margin: 0px !important;
+    font-size: 24px;
+}
+.home-page_top-footer a{
+    color: var(--white) ;
+}
+.home-page_footer-social-media svg{
+    width: 50px;
+    fill: var(--white);
+}
+.home-page_bottom-footer{
+    padding: 1rem;
+    background-color: var(--highlight-secondary);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.home-page_bottom-footer h3{
+    margin: 0px !important;
+    text-align: left 
+}
