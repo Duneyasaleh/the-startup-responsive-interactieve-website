@@ -9,12 +9,13 @@ De opdracht is dat we de huidige website van kennisorganisatie Vilans is toe aan
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+Github Pages:  https://duneyasaleh.github.io/the-startup-responsive-interactieve-website/
 
 ## Kenmerken
 
 De bouw van een werkend prototype in 
 -   CSS en Javascript. 
--		HTML
+-		HTML.
 
 
 ## Licentie
