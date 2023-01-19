@@ -11,9 +11,11 @@ De opdracht is dat we de huidige website van kennisorganisatie Vilans is toe aan
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Kenmerken
+
 De bouw van een werkend prototype in 
-•	HTML
-•	CSS en Javascript. 
+-   CSS en Javascript. 
+-		HTML
+
 
 ## Licentie
 
