@@ -1,15 +1,21 @@
 > _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Titel
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+Kennisorganisatie voor zorg en ondersteuning | Vilans | opdrachtgever Brikkelhart
 
 ## Beschrijving
-<!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
+De opdracht is dat we de huidige website van kennisorganisatie Vilans is toe aan een redesign.
+![image](https://user-images.githubusercontent.com/54691201/213505263-29d61b07-301e-4045-b3a9-23abfcbf9c28.png)
+
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
+Github Pages:  https://duneyasaleh.github.io/the-startup-responsive-interactieve-website/
 
 ## Kenmerken
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
+
+De bouw van een werkend prototype in 
+-   CSS en Javascript. 
+-		HTML.
 
 
 ## Licentie
