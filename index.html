@@ -8,69 +8,82 @@
     <meta name="description" content="Vilans is dé kennisorganisatie voor zorg en ondersteuning. Samen met zorgaanbieders gaan we voor kwaliteit en betaalbare zorg. " />
     <title>Kennisorganisatie voor zorg en ondersteuning | Vilans</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/Flip.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js" defer></script>
     <script src="js/script.js" defer></script>
 </head>
 <body> 
     <header>
+        <nav>
+            <ul class="bottom-nav_list-mobile">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+            </ul>
+        </nav>
         <nav class="top-nav">
             <div class="top-nav_list">
-                <button>Menu</button>
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Artikelen</a></li>
                     <li><a href="#">Producten</a></li>
                     <li><a href="#">Meer</a></li>
                 </ul>
-            </div>
-            <div class="top-nav_logo">
-            <a href="/">
-                <img src="assets/vilans-logo.png" alt="Vilans logo">
-            </a> 
-            </div>
-            <div class="top-nav_search">
-                <a>
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520"  width="65" height="35" title="Search">
+              
+                <div class="top-nav_search">
+                    <a>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520"  width="65" height="35" title="Search">
                         <path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352c79.5 0 144-64.5 144-144s-64.5-144-144-144S64 128.5 64 208s64.5 144 144 144z"/></svg>
-                </a>
-                </div>
+                    </a>
+                    </div>
+            </div>
+            <h1 class="top-nav_logo">
+                <a href="/">
+                  <img src="assets/vilans-logo.png"  width="75" height="35" alt="Vilans logo">
+                </a> 
+             </h1>
+    
+         
         </nav>
     </header>
-    <main>
-        <section class="home-page-slider">
-           <article>
-            <h1 class="home-page-slider_title">Samen verbeteren we de zorg door</h1> 
-            <picture>
-                <source media="(max-width: 640px)" srcset="assets/Propositie1mobile.png">
-                <img src="assets/Propositie 1.png" alt="Propositie">
-             </picture>
-           </article>
-              
-           <article>
-            <h2 class="home-page-slider_title">Samen verbeteren we de zorg door</h2> 
-            <picture>
-                <source media="(max-width: 640px)" srcset="assets/Propositie1mobile.png">
-                <img src="assets/Propositie 1.png" alt="Propositie">
-             </picture>
-           </article>
-              
-           <article>
-            <h2 class="home-page-slider_title">Samen verbeteren we de zorg door</h2> 
-            <picture>
-                <source media="(max-width: 640px)" srcset="assets/Propositie1mobile.png">
-                <img src="assets/Propositie 1.png" alt="Propositie">
-             </picture>
-           </article>
-              
-        </section>
-        <section class="home-page-selector">
-                <article class="home-page-selector_bar">
-                <h3 class="home-page-selector_bar-title">Uw interesses <span class="home-page-selector_bar-total">2</span></h3>
-                <label for="remove" class="home-page-selector_bar-remove">
-                    <h3>Wissen</h3>
-                    <button id="remove">-</button>
-                </label>
-                </article>
-
+    <section class="home-page-slider">
+        <article>
+         <h2 class="home-page-slider_title">Samen verbeteren we de zorg door</h2> 
+         <div>
+             <img class="shape" src="assets/Shape.png"  width="15" height="15" alt="">
+         <picture class="home-page-slider_img">
+             <source media="(min-width: 640px)" srcset="assets/HomepageDesktop.png">
+             <img src="assets/HomepageDesktop.png" alt="#TODO">
+          </picture>
+         </div>
+        </article>
+           
+        <article>
+         <h2 class="home-page-slider_title">Persoonsgericht werken</h2> 
+         <picture class="home-page-slider_img">
+            <source media="(min-width: 640px)" srcset="assets/image2.png">
+             <img src="assets/image2.png" alt="#TODO">
+          </picture>
+        </article>
+           
+        <article>
+         <h2 class="home-page-slider_title">Kwaliteit & Optimalisatie</h2> 
+         <picture class="home-page-slider_img">
+            <source media="(min-width: 640px)" srcset="assets/image3.png">
+             <img src="assets/image3.png" alt="#TODO">
+          </picture>
+        </article>
+           
+     </section>  
+     
+     <section class="home-page-selector">
+        <article class="home-page-selector_bar">
+        <h3 class="home-page-selector_bar-title">Uw interesses <span class="home-page-selector_bar-total">2</span></h3>
+        <button href="#remove" class="home-page-selector_bar-remove">Wissen</button>
+        </article>
                 <article class="home-page-selector_filter">
                 <h2 class="home-page-selector_filter-title">Selecteer uw interesses,
                     wij helpen u verder</h2>
@@ -87,18 +100,22 @@
                 </div>
                 </article>
         </section>
+   
+    <main>
+     
+
         
         <section class="home-page_actueel">
             <h2>Nu actueel</h2>
             <article class="home-page_actueel-card">
                 <picture class="home-page_actueel-card-picture">
-                  <img src="assets/S2.png" alt="Coronatest nu mogelijk voor ál het zorgpersoneel">
+                  <img src="assets/S2.png" alt="">
                 </picture>
                 <div>
                   <h3 class="home-page_actueel-card-title">Coronatest nu mogelijk voor ál het zorgpersoneel</h3>
                   <p class="home-page_actueel-card-thema">Thema:<span>Persoonsgerichtwerken</span></p>
                   <div class="home-page_actueel-card-info">
-                    <span class="home-page_actueel-card-info_datum">8 mei</span>
+                    <time class="home-page_actueel-card-info_datum">8 mei</time>
                     <span class="home-page_actueel-card-info_voice">20 min luisteren</span>
                     <span class="home-page_actueel-card-info_likes">200</span>
                   </div>
@@ -106,13 +123,13 @@
             </article>
             <article class="home-page_actueel-card">
                 <picture class="home-page_actueel-card-picture">
-                  <img src="assets/S.png" alt="Coronatest nu mogelijk voor ál het zorgpersoneel">
+                  <img src="assets/S.png" alt="">
                 </picture>
                 <div>
                   <h3 class="home-page_actueel-card-title">Coronatest nu mogelijk voor ál het zorgpersoneel</h3>
                   <p class="home-page_actueel-card-thema">Thema:<span>Persoonsgerichtwerken</span></p>
                   <div class="home-page_actueel-card-info">
-                    <span class="home-page_actueel-card-info_datum">8 mei</span>
+                    <time class="home-page_actueel-card-info_datum">8 mei</time>
                     <span class="home-page_actueel-card-info_voice">20 min luisteren</span>
                     <span class="home-page_actueel-card-info_likes">200</span>
                   </div>
@@ -120,40 +137,44 @@
             </article>
             <article class="home-page_actueel-card">
                 <picture class="home-page_actueel-card-picture">
-                  <img src="assets/S3.png" alt="Coronatest nu mogelijk voor ál het zorgpersoneel">
+                  <img src="assets/S3.png" alt="">
                 </picture>
                 <div>
                   <h3 class="home-page_actueel-card-title">Coronatest nu mogelijk voor ál het zorgpersoneel</h3>
                   <p class="home-page_actueel-card-thema">Thema:<span>Persoonsgerichtwerken</span></p>
                   <div class="home-page_actueel-card-info">
-                    <span class="home-page_actueel-card-info_datum">8 mei</span>
+                    <time class="home-page_actueel-card-info_datum">8 mei</time>
                     <span class="home-page_actueel-card-info_voice">20 min luisteren</span>
                     <span class="home-page_actueel-card-info_likes">200</span>
                   </div>
                 </div>
             </article>
-            <article class="home-page_agenda">
+        </section>
+        <section class="home-page_agenda">
+            <article class="home-page_agenda-info">
                 <h2 class="home-page_agenda-title">Agenda</h2>
+                <div class="home-page_agenda-card">
                 <div class="home-page_agenda-day">
-                  <span class="home-page_agenda-day_datum">14<em>mei</em></span>
+                  <time class="home-page_agenda-day_datum">14<em>mei</em></time>
                   <span class="home-page_agenda-day_info">Bijeenkomsten - Werkplaatsen respijtzorg</span>
                 </div>
                 <div class="home-page_agenda-day">
-                  <span class="home-page_agenda-day_datum">31<em>mei</em></span>
+                  <time class="home-page_agenda-day_datum">31<em>mei</em></time>
                   <span class="home-page_agenda-day_info">Webinar - Anders vasthouden in tijden van corona</span>
                 </div>
                 <div class="home-page_agenda-day">
-                 <span class="home-page_agenda-day_datum">11<em>september</em></span>
+                 <time class="home-page_agenda-day_datum">11<em>sep</em></time>
                  <span class="home-page_agenda-day_info">Snapsessie regeldruk - Minder regels, meer tijd voor zorg</span>
                 </div>
-               
+               </div>
             </article>
-
+        </section>
+            <section>
             <article class="home-page_populaire-producten">
                 <h2 class="home-page_populaire-producten_title">Populaire producten</h2>
                 <div class="home-page_populaire-producten_card">
                     <picture class="home-page_populaire-producten_card-picture">
-                        <img src="assets/S4.png" alt="Coronatest nu mogelijk voor ál het zorgpersoneel">
+                        <img src="assets/S4.png" alt="">
                     </picture>
                     <div>
                         <span class="home-page_populaire-producten_card-read">lezen</span>
@@ -164,7 +185,7 @@
                 </div>
                 <div class="home-page_populaire-producten_card">
                     <picture class="home-page_populaire-producten_card-picture">
-                        <img src="assets/S5.png" alt="Coronatest nu mogelijk voor ál het zorgpersoneel">
+                        <img src="assets/S5.png" alt="">
                     </picture>
                     <div>
                         <span class="home-page_populaire-producten_card-read">lezen</span>
@@ -175,7 +196,7 @@
                 </div>
                 <div class="home-page_populaire-producten_card">
                     <picture class="home-page_populaire-producten_card-picture">
-                        <img src="assets/S6.png" alt="Coronatest nu mogelijk voor ál het zorgpersoneel">
+                        <img src="assets/S6.png" alt="">
                     </picture>
                     <div>
                         <span class="home-page_populaire-producten_card-read">lezen</span>
@@ -213,5 +234,7 @@
      </div>
 
     </footer>
+
+
 </body>
 </html>
