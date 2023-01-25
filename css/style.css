@@ -250,11 +250,11 @@ nav div{
     gap: .6rem;
 }
 .home-page_actueel-card-info_voice::before{
-    content: url(/assets/.png);
+    content: url(assets/voice.png);
     padding: 0.4rem;
 }
 .home-page_actueel-card-info_likes::before{
-    content: url(/assets/.png);
+    content: url(assets/like.png);
     padding: 0.4rem;
 }
 .home-page_agenda-info{
@@ -302,7 +302,7 @@ nav div{
     padding: 0.4rem;
  }
 .home-page_populaire-producten_card-read::before{
-    content: url(/assets/read-icon.png);
+    content: url(assets/read-icon.png);
     padding-right:.5rem ;
 }
 .home-page_top-footer{
