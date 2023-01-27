@@ -5,6 +5,8 @@ Kennisorganisatie voor zorg en ondersteuning | Vilans | opdrachtgever Brikkelhar
 
 ## Beschrijving
 De opdracht is dat we de huidige website van kennisorganisatie Vilans is toe aan een redesign.
+
+
 ![image](https://user-images.githubusercontent.com/54691201/213505263-29d61b07-301e-4045-b3a9-23abfcbf9c28.png)
 
 <!-- Voeg een mooie poster visual toe 📸 -->
