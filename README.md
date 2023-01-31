@@ -1,6 +1,6 @@
 
-# Titel
-Kennisorganisatie voor zorg en ondersteuning | Vilans | opdrachtgever Brikkelhart
+
+# Kennisorganisatie voor zorg en ondersteuning | Vilans | opdrachtgever Brikkelhart
 
 ## Beschrijving
 De opdracht is dat we de huidige website van kennisorganisatie Vilans is toe aan een redesign.
