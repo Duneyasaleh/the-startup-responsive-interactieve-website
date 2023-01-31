@@ -1,4 +1,3 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # Titel
 Kennisorganisatie voor zorg en ondersteuning | Vilans | opdrachtgever Brikkelhart
@@ -7,7 +6,7 @@ Kennisorganisatie voor zorg en ondersteuning | Vilans | opdrachtgever Brikkelhar
 De opdracht is dat we de huidige website van kennisorganisatie Vilans is toe aan een redesign.
 
 
-![image](https://user-images.githubusercontent.com/54691201/213505263-29d61b07-301e-4045-b3a9-23abfcbf9c28.png)
+![readme](https://user-images.githubusercontent.com/54691201/215862409-f8e9f2bd-431a-4abd-9de9-eecd915b29d0.jpg)
 
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
