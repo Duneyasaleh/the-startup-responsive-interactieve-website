@@ -19,9 +19,19 @@ Github Pages:  https://duneyasaleh.github.io/the-startup-responsive-interactieve
 
 ## Kenmerken
 
-De bouw van een werkend prototype in 
--   CSS en Javascript. 
--		HTML
+Dit project is gemaakt met HTML en CSS. Verder staat hieronder een korte lijst met gebruikte tools en middelen.
+
+Tools
+
+Visual Studio Code
+
+Figma
+
+Gebruikte technieken
+
+ HTML
+
+ CSS
 
 
 ## Licentie
