@@ -12,11 +12,16 @@ De opdracht is dat we de huidige website van kennisorganisatie Vilans is toe aan
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Github Pages:  https://duneyasaleh.github.io/the-startup-responsive-interactieve-website/
 
+## Opdrachtgever
+![image](https://user-images.githubusercontent.com/54691201/215862878-5a10e604-c1cd-4e6c-8e6e-d4647687daf6.png)
+
+
+
 ## Kenmerken
 
 De bouw van een werkend prototype in 
 -   CSS en Javascript. 
--		HTML.
+-		HTML
 
 
 ## Licentie
